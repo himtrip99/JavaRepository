@@ -6,23 +6,9 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 
-/*<script>
-(function() {
-  var cx = '007973451049375520887:vbz1hxx-lsy';
-  var gcse = document.createElement('script');
-  gcse.type = 'text/javascript';
-  gcse.async = true;
-  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(gcse, s);
-})();
-</script>
-<gcse:search></gcse:search>
-*/
-
 public class GoogleSearches {
-	final static String apiKey = "AIzaSyC0Kt3QedPLPOfaikbwagvIB_Oz";
-	final static String customSearchEngineKey = "007973451049375520887:vbz1hxx";
+	final static String apiKey = "key";
+	final static String customSearchEngineKey = "customSearchKey";
 	final static String searchURL = "https://www.googleapis.com/customsearch/v1?";
 
 	public static String search(String pUrl) {
